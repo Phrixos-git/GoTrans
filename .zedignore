@@ -1,0 +1,17 @@
+# 特定のフォルダ全体を隠す
+.env/
+node_modules/
+dist/
+build/
+secrets/
+
+# 特定の拡張子を持つファイルを隠す
+*.pem
+*.key
+*.env
+*.log
+*.json
+*.md
+
+# 特定のファイルをピンポイントで隠す
+config/production.json

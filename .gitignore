@@ -19,6 +19,9 @@ profile.cov
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+build/bin
+node_modules
+frontend/dist
 
 # Go workspace file
 go.work
@@ -30,3 +33,4 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+wails.json
