@@ -4,3 +4,5 @@
 export function Greet(arg1:string):Promise<string>;
 
 export function ProcessMessage(arg1:string):Promise<string>;
+
+export function Translate(arg1:string):Promise<string>;

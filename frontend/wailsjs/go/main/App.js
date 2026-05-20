@@ -9,3 +9,7 @@ export function Greet(arg1) {
 export function ProcessMessage(arg1) {
   return window['go']['main']['App']['ProcessMessage'](arg1);
 }
+
+export function Translate(arg1) {
+  return window['go']['main']['App']['Translate'](arg1);
+}
